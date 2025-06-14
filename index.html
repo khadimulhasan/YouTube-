@@ -95,6 +95,8 @@
         }
          .timeline-details.open {
             opacity: 1;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
         }
         /* Scroll Animations */
         .reveal {
@@ -163,7 +165,6 @@
                 <h3 class="text-3xl font-bold text-center mb-2 text-slate-800">Deconstructing the 2025 Algorithm</h3>
                 <p class="text-center text-slate-500 mb-12 max-w-3xl mx-auto">The algorithm's prime directive is maximizing viewer satisfaction to extend platform session time. Your goal is to align with this by creating content that deeply satisfies your target viewer, built on three core pillars.</p>
             </div>
-            <!-- === UPDATED SECTION START === -->
             <div class="grid md:grid-cols-3 gap-8">
                 <!-- Card 1: Personalization -->
                 <div class="section-card p-8 text-center flex flex-col items-center reveal" style="transition-delay: 100ms;">
@@ -208,7 +209,6 @@
                     </div>
                 </div>
             </div>
-            <!-- === UPDATED SECTION END === -->
             <div class="section-card mt-12 p-8 reveal">
                 <h4 class="text-2xl font-bold text-center mb-2">The Quality Signal: E-E-A-T</h4>
                 <p class="text-center text-slate-500 mb-8 max-w-3xl mx-auto">Experience, Expertise, Authoritativeness, and Trustworthiness. This framework is vital for assessing your content's credibility, especially in sensitive niches.</p>
@@ -244,19 +244,19 @@
             </div>
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="section-card p-6 text-center reveal" style="transition-delay: 100ms;">
-                    <h4 class="text-xl font-bold mb-1">Long-Form Video</h4>
+                    <h4 class="text-xl font-bold mb-2">Long-Form Video</h4>
                     <p class="text-sm text-slate-500 mb-4">Core of your channel for authority and revenue.</p>
                     <button class="content-toggle-btn bg-teal-600 hover:bg-teal-700 transition-colors text-white px-4 py-2 rounded-md text-sm font-semibold" data-target="longform-details">Show Details</button>
                     <div id="longform-details" class="hidden text-left mt-4 text-sm space-y-2">...</div>
                 </div>
                 <div class="section-card p-6 text-center reveal" style="transition-delay: 200ms;">
-                    <h4 class="text-xl font-bold mb-1">YouTube Shorts</h4>
+                    <h4 class="text-xl font-bold mb-2">YouTube Shorts</h4>
                     <p class="text-sm text-slate-500 mb-4">Your discovery engine for massive reach.</p>
                     <button class="content-toggle-btn bg-teal-600 hover:bg-teal-700 transition-colors text-white px-4 py-2 rounded-md text-sm font-semibold" data-target="shorts-details">Show Details</button>
                     <div id="shorts-details" class="hidden text-left mt-4 text-sm space-y-2">...</div>
                 </div>
                 <div class="section-card p-6 text-center reveal" style="transition-delay: 300ms;">
-                    <h4 class="text-xl font-bold mb-1">Live Streams</h4>
+                    <h4 class="text-xl font-bold mb-2">Live Streams</h4>
                     <p class="text-sm text-slate-500 mb-4">Pinnacle of community interaction.</p>
                     <button class="content-toggle-btn bg-teal-600 hover:bg-teal-700 transition-colors text-white px-4 py-2 rounded-md text-sm font-semibold" data-target="live-details">Show Details</button>
                     <div id="live-details" class="hidden text-left mt-4 text-sm space-y-2">...</div>
@@ -350,10 +350,10 @@
                     <p><strong>Monetization:</strong> Fan Funding, Memberships</p>`
             };
             const timelineData = {
-                1: `<ul class="list-disc list-inside space-y-2"><li><strong>Objective:</strong> Foundation & Content Banking</li><li><strong>Key Actions:</strong> Finalize niche, script 8-10 videos, batch record and edit at least 4-5 videos.</li><li><strong>Metric to Watch:</strong> Production Output.</li></ul>`,
-                2: `<ul class="list-disc list-inside space-y-2"><li><strong>Objective:</strong> Launch & Gather Data</li><li><strong>Key Actions:</strong> Publish 3 long-form videos, post 2-3 promotional Shorts, engage with 100% of comments.</li><li><strong>Metric to Watch:</strong> Click-Through Rate (CTR).</li></ul>`,
-                3: `<ul class="list-disc list-inside space-y-2"><li><strong>Objective:</strong> Analyze & Iterate</li><li><strong>Key Actions:</strong> Identify your best-performing video. Publish 2 new videos replicating its winning formula.</li><li><strong>Metric to Watch:</strong> Audience Retention.</li></ul>`,
-                4: `<ul class="list-disc list-inside space-y-2"><li><strong>Objective:</strong> Optimize & Apply</li><li><strong>Key Actions:</strong> Publish 2-3 more videos on formula, host one strategic live stream, monitor progress, and apply for YPP.</li><li><strong>Metric to Watch:</strong> Watch Hours & Subscribers.</li></ul>`
+                1: `<div class="p-4 bg-slate-50 rounded-md border border-slate-200"><ul class="list-disc list-inside space-y-2"><li><strong>Objective:</strong> Foundation & Content Banking</li><li><strong>Key Actions:</strong> Finalize niche, script 8-10 videos, batch record and edit at least 4-5 videos.</li><li><strong>Metric to Watch:</strong> Production Output.</li></ul></div>`,
+                2: `<div class="p-4 bg-slate-50 rounded-md border border-slate-200"><ul class="list-disc list-inside space-y-2"><li><strong>Objective:</strong> Launch & Gather Data</li><li><strong>Key Actions:</strong> Publish 3 long-form videos, post 2-3 promotional Shorts, engage with 100% of comments.</li><li><strong>Metric to Watch:</strong> Click-Through Rate (CTR).</li></ul></div>`,
+                3: `<div class="p-4 bg-slate-50 rounded-md border border-slate-200"><ul class="list-disc list-inside space-y-2"><li><strong>Objective:</strong> Analyze & Iterate</li><li><strong>Key Actions:</strong> Identify your best-performing video. Publish 2 new videos replicating its winning formula.</li><li><strong>Metric to Watch:</strong> Audience Retention.</li></ul></div>`,
+                4: `<div class="p-4 bg-slate-50 rounded-md border border-slate-200"><ul class="list-disc list-inside space-y-2"><li><strong>Objective:</strong> Optimize & Apply</li><li><strong>Key Actions:</strong> Publish 2-3 more videos on formula, host one strategic live stream, monitor progress, and apply for YPP.</li><li><strong>Metric to Watch:</strong> Watch Hours & Subscribers.</li></ul></div>`
             };
              const yppData = {
                 tier1: `<p><strong><span class="font-semibold">500</span> Subscribers</strong></p><p><strong><span class="font-semibold">3,000</span> Watch Hours</strong> OR <strong><span class="font-semibold">3M</span> Shorts Views</strong></p><p class="font-semibold mt-2">Unlocks:</p><ul class="list-disc list-inside text-sm"><li>Channel Memberships</li><li>Super Chat, Super Stickers & Super Thanks</li><li>YouTube Shopping</li></ul>`,
@@ -386,14 +386,19 @@
                 'Gaming': { rpm: 1.50, competition: 'Extremely High', eeat: 'Low', audience: 'Younger demographic (13-24) with high engagement.' },
             };
 
-            // --- INITIALIZATION ---
-            function init() {
+            // --- MAIN INITIALIZATION FUNCTION ---
+            function main() {
                 populateContent();
                 setupEventListeners();
                 initScrollAnimations();
                 createNicheChart();
-                updateNicheDetails('Personal Finance'); // Set initial state
-                document.querySelector('.timeline-item[data-week="1"]').click();
+                updateNicheDetails('Personal Finance');
+                
+                // Open first timeline item by default
+                const firstTimelineItem = document.querySelector('.timeline-item[data-week="1"]');
+                if (firstTimelineItem) {
+                    firstTimelineItem.click();
+                }
             }
 
             function populateContent() {
@@ -403,12 +408,17 @@
                 document.getElementById('live-details').innerHTML = contentDetailsData.live;
                 // Timeline
                 Object.keys(timelineData).forEach(week => {
-                    document.getElementById(`week-${week}-details`).innerHTML = timelineData[week];
+                    const el = document.getElementById(`week-${week}-details`);
+                    if (el) el.innerHTML = timelineData[week];
                 });
                 // YPP
-                document.querySelector('#ypp .grid > div:first-child .space-y-2').innerHTML = yppData.tier1;
-                document.querySelector('#ypp .grid > div:last-child .space-y-2').innerHTML = yppData.tier2;
-                document.querySelector('#ypp .grid.md\\:grid-cols-2.gap-x-8').innerHTML = yppData.pitfalls;
+                const yppGrid = document.querySelector('#ypp .grid.md\\:grid-cols-2.gap-8.reveal');
+                if (yppGrid) {
+                    yppGrid.querySelector(':scope > div:first-child .space-y-2').innerHTML = yppData.tier1;
+                    yppGrid.querySelector(':scope > div:last-child .space-y-2').innerHTML = yppData.tier2;
+                }
+                const pitfallsGrid = document.querySelector('#ypp .mt-12 .grid');
+                if (pitfallsGrid) pitfallsGrid.innerHTML = yppData.pitfalls;
             }
 
             // --- EVENT LISTENERS ---
@@ -449,40 +459,40 @@
                 // Content Strategy Toggles
                 document.querySelectorAll('.content-toggle-btn').forEach(button => {
                     const targetElement = document.getElementById(button.dataset.target);
-                    const initialContent = targetElement.innerHTML;
-                    targetElement.innerHTML = '';
+                    // This is just a placeholder div now, we create the content on click
                     button.addEventListener('click', () => {
-                        const isHidden = !targetElement.innerHTML;
-                        if(isHidden) {
-                           targetElement.innerHTML = initialContent;
+                        const isHidden = targetElement.classList.contains('hidden');
+                        
+                        targetElement.classList.toggle('hidden');
+
+                        if (isHidden) {
                            button.textContent = 'Hide Details';
                         } else {
-                           targetElement.innerHTML = '';
                            button.textContent = 'Show Details';
                         }
                     });
                 });
 
-                // Timeline Accordion
-                document.querySelectorAll('.timeline-item').forEach(item => {
+                // --- ROBUST TIMELINE ACCORDION ---
+                const timelineItems = document.querySelectorAll('.timeline-item');
+                timelineItems.forEach(item => {
                     item.addEventListener('click', () => {
                         const detailsEl = item.querySelector('.timeline-details');
                         const wasOpen = detailsEl.classList.contains('open');
 
-                        document.querySelectorAll('.timeline-item').forEach(i => {
+                        // Close all items
+                        timelineItems.forEach(i => {
                             i.classList.remove('active');
                             const d = i.querySelector('.timeline-details');
                             d.classList.remove('open');
                             d.style.maxHeight = '0px';
-                            d.style.paddingTop = '0';
-                            d.style.paddingBottom = '0';
                         });
 
+                        // If the clicked item wasn't open, open it
                         if (!wasOpen) {
                             item.classList.add('active');
                             detailsEl.classList.add('open');
-                            detailsEl.style.paddingTop = '1rem';
-                            detailsEl.style.paddingBottom = '1rem';
+                            // Set max-height to its scrollHeight to trigger the animation
                             detailsEl.style.maxHeight = detailsEl.scrollHeight + 'px';
                         }
                     });
@@ -562,7 +572,12 @@
                 }, 300);
             }
 
-            init();
+            // --- ROBUST INITIALIZATION ---
+            // Wait for fonts to be fully loaded before running the main script.
+            // This prevents layout shifts from causing incorrect height calculations for animations.
+            document.fonts.ready.then(function () {
+                main();
+            });
         });
     </script>
 </body>
